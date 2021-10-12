@@ -10,8 +10,4 @@ Check out the art here: [general](https://www.artstation.com/artwork/Xvk2w), [to
 
 ![toy-robot](https://cdnb.artstation.com/p/assets/images/images/007/242/727/large/gianluca-rubino-robottino-marm-1.jpg?1504718326)
 
-### Trailer
-
-[trailer](https://vimeo.com/232711718)
-
-[![video-thumbnail]({https://cdna.artstation.com/p/assets/images/images/007/243/974/large/gianluca-rubino-roomrt.jpg?1504723559})]({https://vimeo.com/232711718} "VR Toy War trailer")
+[▶ Video Trailer](https://vimeo.com/232711718 "VR Toy War trailer")
