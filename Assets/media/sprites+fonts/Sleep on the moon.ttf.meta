@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3d02f0bdf5ac2594bab0da6ef9da3bb8
+timeCreated: 1499420708
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sleep on the moon
+  fontNames:
+  - Sleep on the moon
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

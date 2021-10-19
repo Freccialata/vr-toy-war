@@ -1,0 +1,543 @@
+fileFormatVersion: 2
+guid: 77ccd86ea84e07b47bda2d3f5c14df5e
+timeCreated: 1500287093
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: curve1
+    100004: curve2
+    100006: curve3
+    100008: robottino_c_antenna_01_jnt
+    100010: robottino_c_antenna_02
+    100012: robottino_c_antenna_03_jnt
+    100014: robottino_c_antenna_04_jnt
+    100016: robottino_c_antenna_05_jnt
+    100018: robottino_c_antenna_07_jnt
+    100020: robottino_c_antenna_bendSh
+    100022: robottino_c_antenna_bff
+    100024: robottino_c_antenna_ctrl
+    100026: robottino_c_antenna_ctrlCrv
+    100028: robottino_c_antenna_ikh
+    100030: robottino_c_antennaIkSp_grp
+    100032: robottino_c_body_geo
+    100034: robottino_c_chest_bff
+    100036: robottino_c_chest_ctrl
+    100038: robottino_c_COG_bff
+    100040: robottino_c_COG_ctrl
+    100042: robottino_c_COG_jnt
+    100044: robottino_c_head_bff
+    100046: robottino_c_head_ctrl
+    100048: robottino_c_head_geo
+    100050: robottino_c_hip_jnt
+    100052: robottino_c_kneck_jnt
+    100054: robottino_c_topHead_jnt
+    100056: robottino_controlSystem
+    100058: robottino_deformationSystem
+    100060: robottino_FKarms_grp
+    100062: robottino_geometrySystem
+    100064: robottino_globalCtrl_bff
+    100066: robottino_globalCtrl_ctrl
+    100068: //RootNode
+    100070: robottino_IKarms_grp
+    100072: robottino_l_arm_grp
+    100074: robottino_l_arm_ikh
+    100076: robottino_l_armIKfKswitch_bff
+    100078: robottino_l_armIKfKswitch_ctrl
+    100080: robottino_l_backArm_fkDrv
+    100082: robottino_l_backArm_geo
+    100084: robottino_l_backArm_ikDrv
+    100086: robottino_l_backArm_jnt
+    100088: robottino_l_elbow_bff
+    100090: robottino_l_elbow_ctrl
+    100092: robottino_l_foot_jnt
+    100094: robottino_l_foreArm_fkDrv
+    100096: robottino_l_foreArm_geo
+    100098: robottino_l_foreArm_ikDrv
+    100100: robottino_l_foreArm_jnt
+    100102: robottino_l_hand_fkDrv
+    100104: robottino_l_hand_geo
+    100106: robottino_l_hand_ikDrv
+    100108: robottino_l_hand_jnt
+    100110: robottino_l_IKarm_bff
+    100112: robottino_l_IKarm_ctrl
+    100114: robottino_l_ikROT_bff
+    100116: robottino_l_ikROT_ctrl
+    100118: robottino_l_leg_bff
+    100120: robottino_l_leg_ctrl
+    100122: robottino_l_leg_geo
+    100124: robottino_l_leg_jnt
+    100126: robottino_l_shoulder_bff
+    100128: robottino_l_shoulder_ctrl
+    100130: robottino_l_wrist_bff
+    100132: robottino_l_wrist_ctrl
+    100134: robottino_l_wrist_fkDrv
+    100136: robottino_l_wrist_ikDrv
+    100138: robottino_l_wrist_jnt
+    100140: robottino_r_arm_grp
+    100142: robottino_r_arm_ikh
+    100144: robottino_r_armIKfKswitch_bff
+    100146: robottino_r_armIKfKswitch_ctrl
+    100148: robottino_r_backArm_fkDrv
+    100150: robottino_r_backArm_geo
+    100152: robottino_r_backArm_ikDrv
+    100154: robottino_r_backArm_jnt
+    100156: robottino_r_elbow_bff
+    100158: robottino_r_elbow_ctrl
+    100160: robottino_r_foot_jnt
+    100162: robottino_r_foreArm_fkDrv
+    100164: robottino_r_forearm_geo
+    100166: robottino_r_foreArm_ikDrv
+    100168: robottino_r_foreArm_jnt
+    100170: robottino_r_hand_fkDrv
+    100172: robottino_r_hand_geo
+    100174: robottino_r_hand_ikDrv
+    100176: robottino_r_hand_jnt
+    100178: robottino_r_IKarm_bff
+    100180: robottino_r_IKarm_ctrl
+    100182: robottino_r_ikROT_bff
+    100184: robottino_r_ikROT_ctrl
+    100186: robottino_r_leg_bff
+    100188: robottino_r_leg_ctrl
+    100190: robottino_r_leg_geo
+    100192: robottino_r_leg_jnt
+    100194: robottino_r_shoulder_bff
+    100196: robottino_r_shoulder_ctrl
+    100198: robottino_r_wrist_bff
+    100200: robottino_r_wrist_ctrl
+    100202: robottino_r_wrist_fkDrv
+    100204: robottino_r_wrist_ikDrv
+    100206: robottino_r_wrist_jnt
+    400000: back
+    400002: curve1
+    400004: curve2
+    400006: curve3
+    400008: robottino_c_antenna_01_jnt
+    400010: robottino_c_antenna_02
+    400012: robottino_c_antenna_03_jnt
+    400014: robottino_c_antenna_04_jnt
+    400016: robottino_c_antenna_05_jnt
+    400018: robottino_c_antenna_07_jnt
+    400020: robottino_c_antenna_bendSh
+    400022: robottino_c_antenna_bff
+    400024: robottino_c_antenna_ctrl
+    400026: robottino_c_antenna_ctrlCrv
+    400028: robottino_c_antenna_ikh
+    400030: robottino_c_antennaIkSp_grp
+    400032: robottino_c_body_geo
+    400034: robottino_c_chest_bff
+    400036: robottino_c_chest_ctrl
+    400038: robottino_c_COG_bff
+    400040: robottino_c_COG_ctrl
+    400042: robottino_c_COG_jnt
+    400044: robottino_c_head_bff
+    400046: robottino_c_head_ctrl
+    400048: robottino_c_head_geo
+    400050: robottino_c_hip_jnt
+    400052: robottino_c_kneck_jnt
+    400054: robottino_c_topHead_jnt
+    400056: robottino_controlSystem
+    400058: robottino_deformationSystem
+    400060: robottino_FKarms_grp
+    400062: robottino_geometrySystem
+    400064: robottino_globalCtrl_bff
+    400066: robottino_globalCtrl_ctrl
+    400068: //RootNode
+    400070: robottino_IKarms_grp
+    400072: robottino_l_arm_grp
+    400074: robottino_l_arm_ikh
+    400076: robottino_l_armIKfKswitch_bff
+    400078: robottino_l_armIKfKswitch_ctrl
+    400080: robottino_l_backArm_fkDrv
+    400082: robottino_l_backArm_geo
+    400084: robottino_l_backArm_ikDrv
+    400086: robottino_l_backArm_jnt
+    400088: robottino_l_elbow_bff
+    400090: robottino_l_elbow_ctrl
+    400092: robottino_l_foot_jnt
+    400094: robottino_l_foreArm_fkDrv
+    400096: robottino_l_foreArm_geo
+    400098: robottino_l_foreArm_ikDrv
+    400100: robottino_l_foreArm_jnt
+    400102: robottino_l_hand_fkDrv
+    400104: robottino_l_hand_geo
+    400106: robottino_l_hand_ikDrv
+    400108: robottino_l_hand_jnt
+    400110: robottino_l_IKarm_bff
+    400112: robottino_l_IKarm_ctrl
+    400114: robottino_l_ikROT_bff
+    400116: robottino_l_ikROT_ctrl
+    400118: robottino_l_leg_bff
+    400120: robottino_l_leg_ctrl
+    400122: robottino_l_leg_geo
+    400124: robottino_l_leg_jnt
+    400126: robottino_l_shoulder_bff
+    400128: robottino_l_shoulder_ctrl
+    400130: robottino_l_wrist_bff
+    400132: robottino_l_wrist_ctrl
+    400134: robottino_l_wrist_fkDrv
+    400136: robottino_l_wrist_ikDrv
+    400138: robottino_l_wrist_jnt
+    400140: robottino_r_arm_grp
+    400142: robottino_r_arm_ikh
+    400144: robottino_r_armIKfKswitch_bff
+    400146: robottino_r_armIKfKswitch_ctrl
+    400148: robottino_r_backArm_fkDrv
+    400150: robottino_r_backArm_geo
+    400152: robottino_r_backArm_ikDrv
+    400154: robottino_r_backArm_jnt
+    400156: robottino_r_elbow_bff
+    400158: robottino_r_elbow_ctrl
+    400160: robottino_r_foot_jnt
+    400162: robottino_r_foreArm_fkDrv
+    400164: robottino_r_forearm_geo
+    400166: robottino_r_foreArm_ikDrv
+    400168: robottino_r_foreArm_jnt
+    400170: robottino_r_hand_fkDrv
+    400172: robottino_r_hand_geo
+    400174: robottino_r_hand_ikDrv
+    400176: robottino_r_hand_jnt
+    400178: robottino_r_IKarm_bff
+    400180: robottino_r_IKarm_ctrl
+    400182: robottino_r_ikROT_bff
+    400184: robottino_r_ikROT_ctrl
+    400186: robottino_r_leg_bff
+    400188: robottino_r_leg_ctrl
+    400190: robottino_r_leg_geo
+    400192: robottino_r_leg_jnt
+    400194: robottino_r_shoulder_bff
+    400196: robottino_r_shoulder_ctrl
+    400198: robottino_r_wrist_bff
+    400200: robottino_r_wrist_ctrl
+    400202: robottino_r_wrist_fkDrv
+    400204: robottino_r_wrist_ikDrv
+    400206: robottino_r_wrist_jnt
+    4300000: robottino_c_head_geo
+    4300002: robottino_c_body_geo
+    4300004: robottino_l_leg_geo
+    4300006: robottino_r_leg_geo
+    4300008: robottino_l_hand_geo
+    4300010: robottino_l_backArm_geo
+    4300012: robottino_l_foreArm_geo
+    4300014: robottino_r_hand_geo
+    4300016: robottino_r_forearm_geo
+    4300018: robottino_r_backArm_geo
+    7400000: robot_test
+    9500000: //RootNode
+    13700000: robottino_c_body_geo
+    13700002: robottino_c_head_geo
+    13700004: robottino_l_backArm_geo
+    13700006: robottino_l_foreArm_geo
+    13700008: robottino_l_hand_geo
+    13700010: robottino_l_leg_geo
+    13700012: robottino_r_backArm_geo
+    13700014: robottino_r_forearm_geo
+    13700016: robottino_r_hand_geo
+    13700018: robottino_r_leg_geo
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: robot_test
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: robottino_controlSystem
+        weight: 1
+      - path: robottino_controlSystem/robottino_FKarms_grp
+        weight: 1
+      - path: robottino_controlSystem/robottino_FKarms_grp/robottino_l_backArm_fkDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_FKarms_grp/robottino_l_backArm_fkDrv/robottino_l_foreArm_fkDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_FKarms_grp/robottino_l_backArm_fkDrv/robottino_l_foreArm_fkDrv/robottino_l_wrist_fkDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_FKarms_grp/robottino_l_backArm_fkDrv/robottino_l_foreArm_fkDrv/robottino_l_wrist_fkDrv/robottino_l_hand_fkDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_FKarms_grp/robottino_r_backArm_fkDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_FKarms_grp/robottino_r_backArm_fkDrv/robottino_r_foreArm_fkDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_FKarms_grp/robottino_r_backArm_fkDrv/robottino_r_foreArm_fkDrv/robottino_r_wrist_fkDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_FKarms_grp/robottino_r_backArm_fkDrv/robottino_r_foreArm_fkDrv/robottino_r_wrist_fkDrv/robottino_r_hand_fkDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_c_head_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_c_head_bff/robottino_c_head_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_c_head_bff/robottino_c_head_ctrl/robottino_c_antenna_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_c_head_bff/robottino_c_head_ctrl/robottino_c_antenna_bff/robottino_c_antenna_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_IKarm_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_IKarm_bff/robottino_l_IKarm_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_IKarm_bff/robottino_l_IKarm_ctrl/robottino_l_ikROT_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_IKarm_bff/robottino_l_IKarm_ctrl/robottino_l_ikROT_bff/robottino_l_ikROT_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_shoulder_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_shoulder_bff/robottino_l_shoulder_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_shoulder_bff/robottino_l_shoulder_ctrl/robottino_l_elbow_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_shoulder_bff/robottino_l_shoulder_ctrl/robottino_l_elbow_bff/robottino_l_elbow_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_shoulder_bff/robottino_l_shoulder_ctrl/robottino_l_elbow_bff/robottino_l_elbow_ctrl/robottino_l_wrist_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_l_shoulder_bff/robottino_l_shoulder_ctrl/robottino_l_elbow_bff/robottino_l_elbow_ctrl/robottino_l_wrist_bff/robottino_l_wrist_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_IKarm_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_IKarm_bff/robottino_r_IKarm_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_IKarm_bff/robottino_r_IKarm_ctrl/robottino_r_ikROT_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_IKarm_bff/robottino_r_IKarm_ctrl/robottino_r_ikROT_bff/robottino_r_ikROT_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_shoulder_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_shoulder_bff/robottino_r_shoulder_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_shoulder_bff/robottino_r_shoulder_ctrl/robottino_r_elbow_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_shoulder_bff/robottino_r_shoulder_ctrl/robottino_r_elbow_bff/robottino_r_elbow_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_shoulder_bff/robottino_r_shoulder_ctrl/robottino_r_elbow_bff/robottino_r_elbow_ctrl/robottino_r_wrist_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_c_chest_bff/robottino_c_chest_ctrl/robottino_r_shoulder_bff/robottino_r_shoulder_ctrl/robottino_r_elbow_bff/robottino_r_elbow_ctrl/robottino_r_wrist_bff/robottino_r_wrist_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_l_leg_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_l_leg_bff/robottino_l_leg_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_r_leg_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_c_COG_bff/robottino_c_COG_ctrl/robottino_r_leg_bff/robottino_r_leg_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_l_armIKfKswitch_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_l_armIKfKswitch_bff/robottino_l_armIKfKswitch_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_r_armIKfKswitch_bff
+        weight: 1
+      - path: robottino_controlSystem/robottino_globalCtrl_bff/robottino_globalCtrl_ctrl/robottino_r_armIKfKswitch_bff/robottino_r_armIKfKswitch_ctrl
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_l_arm_ikh
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_l_backArm_ikDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_l_backArm_ikDrv/robottino_l_foreArm_ikDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_l_backArm_ikDrv/robottino_l_foreArm_ikDrv/robottino_l_wrist_ikDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_l_backArm_ikDrv/robottino_l_foreArm_ikDrv/robottino_l_wrist_ikDrv/robottino_l_hand_ikDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_r_arm_ikh
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_r_backArm_ikDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_r_backArm_ikDrv/robottino_r_foreArm_ikDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_r_backArm_ikDrv/robottino_r_foreArm_ikDrv/robottino_r_wrist_ikDrv
+        weight: 1
+      - path: robottino_controlSystem/robottino_IKarms_grp/robottino_r_backArm_ikDrv/robottino_r_foreArm_ikDrv/robottino_r_wrist_ikDrv/robottino_r_hand_ikDrv
+        weight: 1
+      - path: robottino_deformationSystem
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_antennaIkSp_grp
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_antennaIkSp_grp/robottino_c_antenna_ctrlCrv
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_antennaIkSp_grp/robottino_c_antenna_ctrlCrv/robottino_c_antenna_bendSh
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_antennaIkSp_grp/robottino_c_antenna_ikh
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt/curve1
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt/curve2
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt/curve3
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt/robottino_c_antenna_01_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt/robottino_c_antenna_01_jnt/robottino_c_antenna_02
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt/robottino_c_antenna_01_jnt/robottino_c_antenna_02/robottino_c_antenna_03_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt/robottino_c_antenna_01_jnt/robottino_c_antenna_02/robottino_c_antenna_03_jnt/robottino_c_antenna_04_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt/robottino_c_antenna_01_jnt/robottino_c_antenna_02/robottino_c_antenna_03_jnt/robottino_c_antenna_04_jnt/robottino_c_antenna_05_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_c_kneck_jnt/robottino_c_topHead_jnt/robottino_c_antenna_01_jnt/robottino_c_antenna_02/robottino_c_antenna_03_jnt/robottino_c_antenna_04_jnt/robottino_c_antenna_05_jnt/robottino_c_antenna_07_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_l_backArm_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_l_backArm_jnt/robottino_l_foreArm_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_l_backArm_jnt/robottino_l_foreArm_jnt/robottino_l_wrist_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_l_backArm_jnt/robottino_l_foreArm_jnt/robottino_l_wrist_jnt/robottino_l_hand_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_r_backArm_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_r_backArm_jnt/robottino_r_foreArm_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_r_backArm_jnt/robottino_r_foreArm_jnt/robottino_r_wrist_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_c_hip_jnt/robottino_r_backArm_jnt/robottino_r_foreArm_jnt/robottino_r_wrist_jnt/robottino_r_hand_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_l_leg_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_l_leg_jnt/robottino_l_foot_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_r_leg_jnt
+        weight: 1
+      - path: robottino_deformationSystem/robottino_c_COG_jnt/robottino_r_leg_jnt/robottino_r_foot_jnt
+        weight: 1
+      - path: robottino_geometrySystem
+        weight: 1
+      - path: robottino_geometrySystem/robottino_c_body_geo
+        weight: 1
+      - path: robottino_geometrySystem/robottino_c_head_geo
+        weight: 1
+      - path: robottino_geometrySystem/robottino_l_arm_grp
+        weight: 1
+      - path: robottino_geometrySystem/robottino_l_arm_grp/robottino_l_backArm_geo
+        weight: 1
+      - path: robottino_geometrySystem/robottino_l_arm_grp/robottino_l_foreArm_geo
+        weight: 1
+      - path: robottino_geometrySystem/robottino_l_arm_grp/robottino_l_hand_geo
+        weight: 1
+      - path: robottino_geometrySystem/robottino_l_leg_geo
+        weight: 1
+      - path: robottino_geometrySystem/robottino_r_arm_grp
+        weight: 1
+      - path: robottino_geometrySystem/robottino_r_arm_grp/robottino_r_backArm_geo
+        weight: 1
+      - path: robottino_geometrySystem/robottino_r_arm_grp/robottino_r_forearm_geo
+        weight: 1
+      - path: robottino_geometrySystem/robottino_r_arm_grp/robottino_r_hand_geo
+        weight: 1
+      - path: robottino_geometrySystem/robottino_r_leg_geo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

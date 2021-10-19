@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 97637fe51e1b48c41a766a715ae880e7
+timeCreated: 1499420708
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Skirmisher
+  fontNames:
+  - Skirmisher
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

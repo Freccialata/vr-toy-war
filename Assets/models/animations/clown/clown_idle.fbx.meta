@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 51159f3cbd12b844dbc52562315ae4ce
+timeCreated: 1500288643
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BoxTop_geo_high
+    100002: BoxTop_geo_low
+    100004: clown_c_box_bff
+    100006: clown_c_box_ctrl
+    100008: clown_c_box_jnt
+    100010: clown_c_box_off
+    100012: clown_c_boxtop01_jnt
+    100014: clown_c_boxtop02_jnt
+    100016: clown_c_chest_jnt
+    100018: clown_c_COG_ctrl
+    100020: clown_c_head01_jnt
+    100022: clown_c_head02_jnt
+    100024: clown_c_head_bff
+    100026: clown_c_head_ctrl
+    100028: clown_c_head_off
+    100030: clown_c_spine_01_jnt
+    100032: clown_c_spine_02_jnt
+    100034: clown_c_spring_01_jnt
+    100036: clown_c_spring_02_jnt
+    100038: clown_c_spring_03_jnt
+    100040: clown_c_spring_04_jnt
+    100042: clown_c_spring_05_jnt
+    100044: clown_c_spring_06_jnt
+    100046: clown_c_spring_07_jnt
+    100048: clown_c_spring_08_jnt
+    100050: clown_c_spring_bff
+    100052: clown_c_spring_ctrl
+    100054: clown_c_spring_off
+    100056: Clown_control_system_grp
+    100058: Clown_deformation_system_grp
+    100060: Clown_geo_high
+    100062: Clown_geo_high_MeshPart0
+    100064: Clown_geo_high_MeshPart1
+    100066: Clown_geo_high_MeshPart10
+    100068: Clown_geo_high_MeshPart11
+    100070: Clown_geo_high_MeshPart12
+    100072: Clown_geo_high_MeshPart13
+    100074: Clown_geo_high_MeshPart14
+    100076: Clown_geo_high_MeshPart15
+    100078: Clown_geo_high_MeshPart16
+    100080: Clown_geo_high_MeshPart17
+    100082: Clown_geo_high_MeshPart18
+    100084: Clown_geo_high_MeshPart2
+    100086: Clown_geo_high_MeshPart3
+    100088: Clown_geo_high_MeshPart4
+    100090: Clown_geo_high_MeshPart5
+    100092: Clown_geo_high_MeshPart6
+    100094: Clown_geo_high_MeshPart7
+    100096: Clown_geo_high_MeshPart8
+    100098: Clown_geo_high_MeshPart9
+    100100: Clown_geo_low
+    100102: //RootNode
+    100104: clown_l_elbow_bff
+    100106: clown_l_elbow_ctrl
+    100108: clown_l_elbow_jnt
+    100110: clown_l_elbow_off
+    100112: clown_l_hand_jnt
+    100114: clown_l_shoulder_bff
+    100116: clown_l_shoulder_ctrl
+    100118: clown_l_shoulder_jnt
+    100120: clown_l_shoulder_off
+    100122: clown_l_wrist_bff
+    100124: clown_l_wrist_ctrl
+    100126: clown_l_wrist_jnt
+    100128: clown_l_wrist_off
+    100130: Clown_low
+    100132: clown_r_elbow_bff
+    100134: clown_r_elbow_ctrl
+    100136: clown_r_elbow_jnt
+    100138: clown_r_elbow_off
+    100140: clown_r_hand_jnt
+    100142: clown_r_shoulder_bff
+    100144: clown_r_shoulder_ctrl
+    100146: clown_r_shoulder_jnt
+    100148: clown_r_shoulder_off
+    100150: clown_r_wrist_bff
+    100152: clown_r_wrist_ctrl
+    100154: clown_r_wrist_jnt
+    100156: clown_r_wrist_off
+    100158: curve2
+    100160: ikHandle1
+    400000: BoxTop_geo_high
+    400002: BoxTop_geo_low
+    400004: clown_c_box_bff
+    400006: clown_c_box_ctrl
+    400008: clown_c_box_jnt
+    400010: clown_c_box_off
+    400012: clown_c_boxtop01_jnt
+    400014: clown_c_boxtop02_jnt
+    400016: clown_c_chest_jnt
+    400018: clown_c_COG_ctrl
+    400020: clown_c_head01_jnt
+    400022: clown_c_head02_jnt
+    400024: clown_c_head_bff
+    400026: clown_c_head_ctrl
+    400028: clown_c_head_off
+    400030: clown_c_spine_01_jnt
+    400032: clown_c_spine_02_jnt
+    400034: clown_c_spring_01_jnt
+    400036: clown_c_spring_02_jnt
+    400038: clown_c_spring_03_jnt
+    400040: clown_c_spring_04_jnt
+    400042: clown_c_spring_05_jnt
+    400044: clown_c_spring_06_jnt
+    400046: clown_c_spring_07_jnt
+    400048: clown_c_spring_08_jnt
+    400050: clown_c_spring_bff
+    400052: clown_c_spring_ctrl
+    400054: clown_c_spring_off
+    400056: Clown_control_system_grp
+    400058: Clown_deformation_system_grp
+    400060: Clown_geo_high
+    400062: Clown_geo_high_MeshPart0
+    400064: Clown_geo_high_MeshPart1
+    400066: Clown_geo_high_MeshPart10
+    400068: Clown_geo_high_MeshPart11
+    400070: Clown_geo_high_MeshPart12
+    400072: Clown_geo_high_MeshPart13
+    400074: Clown_geo_high_MeshPart14
+    400076: Clown_geo_high_MeshPart15
+    400078: Clown_geo_high_MeshPart16
+    400080: Clown_geo_high_MeshPart17
+    400082: Clown_geo_high_MeshPart18
+    400084: Clown_geo_high_MeshPart2
+    400086: Clown_geo_high_MeshPart3
+    400088: Clown_geo_high_MeshPart4
+    400090: Clown_geo_high_MeshPart5
+    400092: Clown_geo_high_MeshPart6
+    400094: Clown_geo_high_MeshPart7
+    400096: Clown_geo_high_MeshPart8
+    400098: Clown_geo_high_MeshPart9
+    400100: Clown_geo_low
+    400102: //RootNode
+    400104: clown_l_elbow_bff
+    400106: clown_l_elbow_ctrl
+    400108: clown_l_elbow_jnt
+    400110: clown_l_elbow_off
+    400112: clown_l_hand_jnt
+    400114: clown_l_shoulder_bff
+    400116: clown_l_shoulder_ctrl
+    400118: clown_l_shoulder_jnt
+    400120: clown_l_shoulder_off
+    400122: clown_l_wrist_bff
+    400124: clown_l_wrist_ctrl
+    400126: clown_l_wrist_jnt
+    400128: clown_l_wrist_off
+    400130: Clown_low
+    400132: clown_r_elbow_bff
+    400134: clown_r_elbow_ctrl
+    400136: clown_r_elbow_jnt
+    400138: clown_r_elbow_off
+    400140: clown_r_hand_jnt
+    400142: clown_r_shoulder_bff
+    400144: clown_r_shoulder_ctrl
+    400146: clown_r_shoulder_jnt
+    400148: clown_r_shoulder_off
+    400150: clown_r_wrist_bff
+    400152: clown_r_wrist_ctrl
+    400154: clown_r_wrist_jnt
+    400156: clown_r_wrist_off
+    400158: curve2
+    400160: ikHandle1
+    2300000: BoxTop_geo_high
+    2300002: BoxTop_geo_low
+    2300004: Clown_geo_high_MeshPart0
+    2300006: Clown_geo_high_MeshPart1
+    2300008: Clown_geo_high_MeshPart10
+    2300010: Clown_geo_high_MeshPart11
+    2300012: Clown_geo_high_MeshPart12
+    2300014: Clown_geo_high_MeshPart13
+    2300016: Clown_geo_high_MeshPart14
+    2300018: Clown_geo_high_MeshPart15
+    2300020: Clown_geo_high_MeshPart16
+    2300022: Clown_geo_high_MeshPart17
+    2300024: Clown_geo_high_MeshPart18
+    2300026: Clown_geo_high_MeshPart2
+    2300028: Clown_geo_high_MeshPart3
+    2300030: Clown_geo_high_MeshPart4
+    2300032: Clown_geo_high_MeshPart5
+    2300034: Clown_geo_high_MeshPart6
+    2300036: Clown_geo_high_MeshPart7
+    2300038: Clown_geo_high_MeshPart8
+    2300040: Clown_geo_high_MeshPart9
+    2300042: Clown_geo_low
+    3300000: BoxTop_geo_high
+    3300002: BoxTop_geo_low
+    3300004: Clown_geo_high_MeshPart0
+    3300006: Clown_geo_high_MeshPart1
+    3300008: Clown_geo_high_MeshPart10
+    3300010: Clown_geo_high_MeshPart11
+    3300012: Clown_geo_high_MeshPart12
+    3300014: Clown_geo_high_MeshPart13
+    3300016: Clown_geo_high_MeshPart14
+    3300018: Clown_geo_high_MeshPart15
+    3300020: Clown_geo_high_MeshPart16
+    3300022: Clown_geo_high_MeshPart17
+    3300024: Clown_geo_high_MeshPart18
+    3300026: Clown_geo_high_MeshPart2
+    3300028: Clown_geo_high_MeshPart3
+    3300030: Clown_geo_high_MeshPart4
+    3300032: Clown_geo_high_MeshPart5
+    3300034: Clown_geo_high_MeshPart6
+    3300036: Clown_geo_high_MeshPart7
+    3300038: Clown_geo_high_MeshPart8
+    3300040: Clown_geo_high_MeshPart9
+    3300042: Clown_geo_low
+    4300000: BoxTop_geo_low
+    4300002: Clown_geo_low
+    4300004: Clown_geo_high_MeshPart0
+    4300006: Clown_geo_high_MeshPart1
+    4300008: Clown_geo_high_MeshPart2
+    4300010: Clown_geo_high_MeshPart3
+    4300012: Clown_geo_high_MeshPart4
+    4300014: Clown_geo_high_MeshPart5
+    4300016: Clown_geo_high_MeshPart6
+    4300018: Clown_geo_high_MeshPart7
+    4300020: Clown_geo_high_MeshPart8
+    4300022: Clown_geo_high_MeshPart9
+    4300024: Clown_geo_high_MeshPart10
+    4300026: Clown_geo_high_MeshPart11
+    4300028: Clown_geo_high_MeshPart12
+    4300030: Clown_geo_high_MeshPart13
+    4300032: Clown_geo_high_MeshPart14
+    4300034: Clown_geo_high_MeshPart15
+    4300036: Clown_geo_high_MeshPart16
+    4300038: Clown_geo_high_MeshPart17
+    4300040: Clown_geo_high_MeshPart18
+    4300042: BoxTop_geo_high
+    4300044: Clown_low
+    7400000: clownBroken
+    9500000: //RootNode
+    13700000: Clown_low
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: clownBroken
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoxTop_geo_high
+        weight: 1
+      - path: BoxTop_geo_low
+        weight: 1
+      - path: clown_c_box_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_boxtop01_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_boxtop01_jnt/clown_c_boxtop02_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_c_head01_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_c_head01_jnt/clown_c_head02_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_l_shoulder_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_l_shoulder_jnt/clown_l_elbow_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_l_shoulder_jnt/clown_l_elbow_jnt/clown_l_wrist_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_l_shoulder_jnt/clown_l_elbow_jnt/clown_l_wrist_jnt/clown_l_hand_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_r_shoulder_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_r_shoulder_jnt/clown_r_elbow_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_r_shoulder_jnt/clown_r_elbow_jnt/clown_r_wrist_jnt
+        weight: 1
+      - path: clown_c_box_jnt/clown_c_spring_01_jnt/clown_c_spring_02_jnt/clown_c_spring_03_jnt/clown_c_spring_04_jnt/clown_c_spring_05_jnt/clown_c_spring_06_jnt/clown_c_spring_07_jnt/clown_c_spring_08_jnt/clown_c_spine_01_jnt/clown_c_spine_02_jnt/clown_c_chest_jnt/clown_r_shoulder_jnt/clown_r_elbow_jnt/clown_r_wrist_jnt/clown_r_hand_jnt
+        weight: 1
+      - path: Clown_control_system_grp
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_box_off
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_box_off/clown_c_box_bff
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_box_off/clown_c_box_bff/clown_c_box_ctrl
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_COG_ctrl
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_head_off
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_head_off/clown_c_head_bff
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_head_off/clown_c_head_bff/clown_c_head_ctrl
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_spring_off
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_spring_off/clown_c_spring_bff
+        weight: 1
+      - path: Clown_control_system_grp/clown_c_spring_off/clown_c_spring_bff/clown_c_spring_ctrl
+        weight: 1
+      - path: Clown_control_system_grp/clown_l_shoulder_off
+        weight: 1
+      - path: Clown_control_system_grp/clown_l_shoulder_off/clown_l_shoulder_bff
+        weight: 1
+      - path: Clown_control_system_grp/clown_l_shoulder_off/clown_l_shoulder_bff/clown_l_shoulder_ctrl
+        weight: 1
+      - path: Clown_control_system_grp/clown_l_shoulder_off/clown_l_shoulder_bff/clown_l_shoulder_ctrl/clown_l_elbow_off
+        weight: 1
+      - path: Clown_control_system_grp/clown_l_shoulder_off/clown_l_shoulder_bff/clown_l_shoulder_ctrl/clown_l_elbow_off/clown_l_elbow_bff
+        weight: 1
+      - path: Clown_control_system_grp/clown_l_shoulder_off/clown_l_shoulder_bff/clown_l_shoulder_ctrl/clown_l_elbow_off/clown_l_elbow_bff/clown_l_elbow_ctrl
+        weight: 1
+      - path: Clown_control_system_grp/clown_l_shoulder_off/clown_l_shoulder_bff/clown_l_shoulder_ctrl/clown_l_elbow_off/clown_l_elbow_bff/clown_l_elbow_ctrl/clown_l_wrist_off
+        weight: 1
+      - path: Clown_control_system_grp/clown_l_shoulder_off/clown_l_shoulder_bff/clown_l_shoulder_ctrl/clown_l_elbow_off/clown_l_elbow_bff/clown_l_elbow_ctrl/clown_l_wrist_off/clown_l_wrist_bff
+        weight: 1
+      - path: Clown_control_system_grp/clown_l_shoulder_off/clown_l_shoulder_bff/clown_l_shoulder_ctrl/clown_l_elbow_off/clown_l_elbow_bff/clown_l_elbow_ctrl/clown_l_wrist_off/clown_l_wrist_bff/clown_l_wrist_ctrl
+        weight: 1
+      - path: Clown_control_system_grp/clown_r_shoulder_off
+        weight: 1
+      - path: Clown_control_system_grp/clown_r_shoulder_off/clown_r_shoulder_bff
+        weight: 1
+      - path: Clown_control_system_grp/clown_r_shoulder_off/clown_r_shoulder_bff/clown_r_shoulder_ctrl
+        weight: 1
+      - path: Clown_control_system_grp/clown_r_shoulder_off/clown_r_shoulder_bff/clown_r_shoulder_ctrl/clown_r_elbow_off
+        weight: 1
+      - path: Clown_control_system_grp/clown_r_shoulder_off/clown_r_shoulder_bff/clown_r_shoulder_ctrl/clown_r_elbow_off/clown_r_elbow_bff
+        weight: 1
+      - path: Clown_control_system_grp/clown_r_shoulder_off/clown_r_shoulder_bff/clown_r_shoulder_ctrl/clown_r_elbow_off/clown_r_elbow_bff/clown_r_elbow_ctrl
+        weight: 1
+      - path: Clown_control_system_grp/clown_r_shoulder_off/clown_r_shoulder_bff/clown_r_shoulder_ctrl/clown_r_elbow_off/clown_r_elbow_bff/clown_r_elbow_ctrl/clown_r_wrist_off
+        weight: 1
+      - path: Clown_control_system_grp/clown_r_shoulder_off/clown_r_shoulder_bff/clown_r_shoulder_ctrl/clown_r_elbow_off/clown_r_elbow_bff/clown_r_elbow_ctrl/clown_r_wrist_off/clown_r_wrist_bff
+        weight: 1
+      - path: Clown_control_system_grp/clown_r_shoulder_off/clown_r_shoulder_bff/clown_r_shoulder_ctrl/clown_r_elbow_off/clown_r_elbow_bff/clown_r_elbow_ctrl/clown_r_wrist_off/clown_r_wrist_bff/clown_r_wrist_ctrl
+        weight: 1
+      - path: Clown_deformation_system_grp
+        weight: 1
+      - path: Clown_deformation_system_grp/curve2
+        weight: 1
+      - path: Clown_deformation_system_grp/ikHandle1
+        weight: 1
+      - path: Clown_geo_high
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart0
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart1
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart2
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart3
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart4
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart5
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart6
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart7
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart8
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart9
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart10
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart11
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart12
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart13
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart14
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart15
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart16
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart17
+        weight: 1
+      - path: Clown_geo_high/Clown_geo_high_MeshPart18
+        weight: 1
+      - path: Clown_geo_low
+        weight: 1
+      - path: Clown_low
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

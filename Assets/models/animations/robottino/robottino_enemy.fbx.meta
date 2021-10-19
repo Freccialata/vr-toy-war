@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 76be1990485a2c34a9c76774f66b44e1
+timeCreated: 1500287700
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: robottino_c_antenna_01_jnt
+    100002: robottino_c_antenna_02
+    100004: robottino_c_antenna_03_jnt
+    100006: robottino_c_antenna_04_jnt
+    100008: robottino_c_antenna_05_jnt
+    100010: robottino_c_antenna_07_jnt
+    100012: robottino_c_COG_jnt
+    100014: robottino_c_hip_jnt
+    100016: robottino_c_kneck_jnt
+    100018: robottino_c_topHead_jnt
+    100020: robottino_char
+    100022: robottino_deformationSystem
+    100024: //RootNode
+    100026: robottino_l_backArm_jnt
+    100028: robottino_l_foot_jnt
+    100030: robottino_l_foreArm_jnt
+    100032: robottino_l_hand_jnt
+    100034: robottino_l_leg_jnt
+    100036: robottino_l_wrist_jnt
+    100038: robottino_r_backArm_jnt
+    100040: robottino_r_foot_jnt
+    100042: robottino_r_foreArm_jnt
+    100044: robottino_r_hand_jnt
+    100046: robottino_r_leg_jnt
+    100048: robottino_r_wrist_jnt
+    400000: robottino_c_antenna_01_jnt
+    400002: robottino_c_antenna_02
+    400004: robottino_c_antenna_03_jnt
+    400006: robottino_c_antenna_04_jnt
+    400008: robottino_c_antenna_05_jnt
+    400010: robottino_c_antenna_07_jnt
+    400012: robottino_c_COG_jnt
+    400014: robottino_c_hip_jnt
+    400016: robottino_c_kneck_jnt
+    400018: robottino_c_topHead_jnt
+    400020: robottino_char
+    400022: robottino_deformationSystem
+    400024: //RootNode
+    400026: robottino_l_backArm_jnt
+    400028: robottino_l_foot_jnt
+    400030: robottino_l_foreArm_jnt
+    400032: robottino_l_hand_jnt
+    400034: robottino_l_leg_jnt
+    400036: robottino_l_wrist_jnt
+    400038: robottino_r_backArm_jnt
+    400040: robottino_r_foot_jnt
+    400042: robottino_r_foreArm_jnt
+    400044: robottino_r_hand_jnt
+    400046: robottino_r_leg_jnt
+    400048: robottino_r_wrist_jnt
+    4300000: robottino_char
+    9500000: //RootNode
+    13700000: robottino_char
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 77ccd86ea84e07b47bda2d3f5c14df5e,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

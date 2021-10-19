@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 0aaeaa0bf5625394fadd15f739a0f5f6
+timeCreated: 1499074363
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: HAND
+    100002: hand_arm_jnt
+    100004: hand_controlSystem_grp
+    100006: hand_deformationSystem_grp
+    100008: hand_global_bff
+    100010: hand_global_ctrl
+    100012: hand_index01_jnt
+    100014: hand_index02_jnt
+    100016: hand_index03_jnt
+    100018: hand_index04_jnt
+    100020: hand_middle01_jnt
+    100022: hand_middle02_jnt
+    100024: hand_middle03_jnt
+    100026: hand_middle04_jnt
+    100028: hand_pinky01_jnt
+    100030: hand_pinky02_jnt
+    100032: hand_pinky03_jnt
+    100034: hand_pinky04_jnt
+    100036: hand_ring01_jnt
+    100038: hand_ring02_jnt
+    100040: hand_ring03_jnt
+    100042: hand_ring04_jnt
+    100044: hand_thumb01_jnt
+    100046: hand_thumb02_jnt
+    100048: hand_thumb03_jnt
+    100050: hand_thumb04_jnt
+    100052: hand_wrist_jnt_new
+    100054: NERFGUN
+    100056: nerfGun_controlSystem_grp
+    100058: nerfGun_deformationSystem_grp
+    100060: //RootNode
+    100062: nerfGun_trigger_bff
+    100064: nerfGun_trigger_ctrl
+    100066: nerfGun_trigger_jnt
+    400000: HAND
+    400002: hand_arm_jnt
+    400004: hand_controlSystem_grp
+    400006: hand_deformationSystem_grp
+    400008: hand_global_bff
+    400010: hand_global_ctrl
+    400012: hand_index01_jnt
+    400014: hand_index02_jnt
+    400016: hand_index03_jnt
+    400018: hand_index04_jnt
+    400020: hand_middle01_jnt
+    400022: hand_middle02_jnt
+    400024: hand_middle03_jnt
+    400026: hand_middle04_jnt
+    400028: hand_pinky01_jnt
+    400030: hand_pinky02_jnt
+    400032: hand_pinky03_jnt
+    400034: hand_pinky04_jnt
+    400036: hand_ring01_jnt
+    400038: hand_ring02_jnt
+    400040: hand_ring03_jnt
+    400042: hand_ring04_jnt
+    400044: hand_thumb01_jnt
+    400046: hand_thumb02_jnt
+    400048: hand_thumb03_jnt
+    400050: hand_thumb04_jnt
+    400052: hand_wrist_jnt_new
+    400054: NERFGUN
+    400056: nerfGun_controlSystem_grp
+    400058: nerfGun_deformationSystem_grp
+    400060: //RootNode
+    400062: nerfGun_trigger_bff
+    400064: nerfGun_trigger_ctrl
+    400066: nerfGun_trigger_jnt
+    7400000: nerfGun_idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: nerfGun_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HAND
+        weight: 1
+      - path: HAND/hand_controlSystem_grp
+        weight: 1
+      - path: HAND/hand_controlSystem_grp/hand_global_bff
+        weight: 1
+      - path: HAND/hand_controlSystem_grp/hand_global_bff/hand_global_ctrl
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_index01_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_index01_jnt/hand_index02_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_index01_jnt/hand_index02_jnt/hand_index03_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_index01_jnt/hand_index02_jnt/hand_index03_jnt/hand_index04_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_middle01_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_middle01_jnt/hand_middle02_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_middle01_jnt/hand_middle02_jnt/hand_middle03_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_middle01_jnt/hand_middle02_jnt/hand_middle03_jnt/hand_middle04_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_pinky01_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_pinky01_jnt/hand_pinky02_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_pinky01_jnt/hand_pinky02_jnt/hand_pinky03_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_pinky01_jnt/hand_pinky02_jnt/hand_pinky03_jnt/hand_pinky04_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_ring01_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_ring01_jnt/hand_ring02_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_ring01_jnt/hand_ring02_jnt/hand_ring03_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_ring01_jnt/hand_ring02_jnt/hand_ring03_jnt/hand_ring04_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_thumb01_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_thumb01_jnt/hand_thumb02_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_thumb01_jnt/hand_thumb02_jnt/hand_thumb03_jnt
+        weight: 1
+      - path: HAND/hand_deformationSystem_grp/hand_arm_jnt/hand_wrist_jnt_new/hand_thumb01_jnt/hand_thumb02_jnt/hand_thumb03_jnt/hand_thumb04_jnt
+        weight: 1
+      - path: NERFGUN
+        weight: 1
+      - path: NERFGUN/nerfGun_controlSystem_grp
+        weight: 1
+      - path: NERFGUN/nerfGun_controlSystem_grp/nerfGun_trigger_bff
+        weight: 1
+      - path: NERFGUN/nerfGun_controlSystem_grp/nerfGun_trigger_bff/nerfGun_trigger_ctrl
+        weight: 1
+      - path: NERFGUN/nerfGun_deformationSystem_grp
+        weight: 1
+      - path: NERFGUN/nerfGun_deformationSystem_grp/nerfGun_trigger_jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
